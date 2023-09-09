@@ -1,0 +1,8 @@
+.idea
+bin
+include
+lib
+venv
+access_token.json
+client_secret.json
+pyvenv.cfg
