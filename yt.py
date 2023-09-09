@@ -112,12 +112,12 @@ def list_broadcasts(youtube, broadcast_status):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--broadcast-status',
-                        help='Broadcast status',
-                        choices=VALID_BROADCAST_STATUSES,
-                        default=VALID_BROADCAST_STATUSES[0])
-    args = parser.parse_args()
+    # parser = argparse.ArgumentParser()
+    # parser.add_argument('--broadcast-status',
+    #                     help='Broadcast status',
+    #                     choices=VALID_BROADCAST_STATUSES,
+    #                     default=VALID_BROADCAST_STATUSES[0])
+    # args = parser.parse_args()
 
     youtube = get_authenticated_service()
     try:
